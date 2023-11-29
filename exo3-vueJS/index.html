@@ -14,7 +14,7 @@
         <h1 class="text-center">TP DataBinding - Profile User</h1>
         <img v-bind:src="url" alt="Image aléatoire Lorem Picsum">
         <p>{{nom}}</p>
-        <input type="text" class="text-center" v-bind:value="nom">
+        <input type="text" class="text-center" v-bind:value="nom"> <!--s'écrit aussi :value="nom" sans le v-bind-->
         <!--<input type="text" v-model="nom" class="text-center">-->
         <p>{{age}} ans</p>
         <p>age + 10 : {{agePlusDix()}} ans</p>
